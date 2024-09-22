@@ -52,6 +52,12 @@ span {
 img {
   vertical-align: middle;
 }
+.sectionTitle {
+  font-size: var(--font-size-48);
+  color: var(--primary-font-color);
+  font-weight: var(--font-600);
+  line-height: 64px;
+}
 /* ====================== Common CSS ====================== */
 /* ============================ Navbar section ============================ */
 .coustom-nav {
@@ -66,6 +72,9 @@ img {
 .coustomNavUl {
   gap: 32px;
 }
+.coustomNavUl__li {
+  align-self: center;
+}
 .coustomNavUl__li a {
   text-decoration: none;
 }
@@ -76,3 +85,208 @@ nav .customBtn {
   background: transparent;
   color: var(--white-color);
 }
+nav .customBtn {
+  padding: 16px 48px;
+  background: transparent;
+  border: 1px solid rgba(244, 246, 252, 0.2);
+  border-radius: 48px;
+  -webkit-border-radius: 48px;
+  -moz-border-radius: 48px;
+  -ms-border-radius: 48px;
+  -o-border-radius: 48px;
+  transition: 0.2s linear;
+  -webkit-transition: 0.2s linear;
+  -moz-transition: 0.2s linear;
+  -ms-transition: 0.2s linear;
+  -o-transition: 0.2s linear;
+}
+nav .customBtn:hover {
+  background: var(--yellow-color);
+  color: var(--primary-font-color);
+  font-size: var(--base-font);
+  font-weight: var(--font-500);
+}
+/* ============================== Navbar section ============================== */
+
+/* =============================== Hero Section ===============================*/
+.heroSection {
+  background: var(--primary-color);
+  color: var(--white-color);
+  min-height: 100vh;
+}
+.heroContainer {
+  padding: 200px 0;
+}
+.heroTitle {
+  font-size: 54px;
+  font-weight: var(--font-600);
+  line-height: 74px;
+}
+.heroSummery {
+  opacity: 0.7;
+  font-size: var(--base-font);
+  font-weight: var(--font-500);
+  line-height: 24px;
+}
+.heroSection .customBtn {
+  padding: 16px 48px;
+  background: transparent;
+  border: none;
+  border-radius: 48px;
+  -webkit-border-radius: 48px;
+  -moz-border-radius: 48px;
+  -ms-border-radius: 48px;
+  -o-border-radius: 48px;
+  transition: 0.2s linear;
+  -webkit-transition: 0.2s linear;
+  -moz-transition: 0.2s linear;
+  -ms-transition: 0.2s linear;
+  -o-transition: 0.2s linear;
+  color: var(--white-color);
+}
+.heroSection .customBtn:hover {
+  background: var(--yellow-color);
+  color: var(--primary-font-color);
+  font-size: var(--base-font);
+  font-weight: var(--font-500);
+}
+/* =============================== Hero Section ===============================*/
+
+/* ============================== How We work Section =============================*/
+#about {
+  background: var(--grey-color);
+}
+.aboutDescript {
+  color: var(--primary-font-color);
+  opacity: 0.7;
+  font-weight: var(--font-400);
+  font-size: var(--base-font);
+}
+.aboutBtn {
+  color: var(--Royal-blue);
+  font-size: var(--font-size-18);
+  font-weight: var(--font-500);
+  line-height: 32px;
+}
+#about .customCard {
+  margin: 48px 0;
+}
+#about .aboutCustomImg {
+  width: 50px;
+}
+#about .cardTitle {
+  color: var(--primary-font-color);
+  font-size: var(--font-size-32);
+  line-height: 48px;
+  font-weight: var(--font-500);
+}
+#about .cardText {
+  color: var(--primary-font-color);
+  font-size: var(--base-font);
+  line-height: 28px;
+  font-weight: 400;
+  opacity: 0.7;
+}
+/* ============================== How we Work Section =============================*/
+/* ============================== Our Projects Section =============================*/
+
+.projectsContainer .leftProjectCard {
+  background: url(../images/banner/Card.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  position: relative;
+}
+.leftProjectCard .overly {
+  background: linear-gradient(
+    329deg,
+    #1c1e53 -10.96%,
+    rgba(28, 30, 83, 0.42) 103.96%
+  );
+  height: 100%;
+  width: 45%;
+  color: var(--white-color);
+  padding: 40px;
+  position: absolute;
+  opacity: 0;
+  transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  -moz-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  -o-transform: translateX(-100%);
+  transform-origin: bottom left;
+  transition: 0.3s ease-in;
+  -webkit-transition: 0.3s ease-in;
+  -moz-transition: 0.3s ease-in;
+  -ms-transition: 0.3s ease-in;
+  -o-transition: 0.3s ease-in;
+}
+.leftProjectCard:hover .overly {
+  opacity: 1;
+  transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+}
+.leftProjectCard__title {
+  font-size: var(--font-size-24);
+  font-weight: var(--font-600);
+  line-height: 36px;
+}
+.leftProjectCard__summary {
+  opacity: 0.8;
+  font-size: var(--base-font);
+  font-weight: var(--font-500);
+  line-height: 28px;
+}
+.leftProjectCard__link {
+  color: var(--white-color);
+}
+
+.leftProjectCard__link:hover {
+  color: var(--yellow-color);
+}
+
+.rightFirstImage {
+  background: url(../images/banner/Card2.png);
+  height: 284px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.rightFirstImage .overly,
+.rightSecondImage .overly {
+  height: 100%;
+  background: linear-gradient(
+    329deg,
+    #1c1e53 -10.96%,
+    rgba(28, 30, 83, 0.42) 103.96%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 50px;
+  color: var(--white-color);
+  row-gap: 20px;
+  opacity: 0;
+  transition: 0.3s linear;
+  -webkit-transition: 0.3s linear;
+  -moz-transition: 0.3s linear;
+  -ms-transition: 0.3s linear;
+  -o-transition: 0.3s linear;
+}
+.rightFirstImage:hover .overly,
+.rightSecondImage:hover .overly {
+  opacity: 1;
+}
+.rightSecondImage {
+  background: url(../images/banner/Card3.png);
+  height: 284px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* ============================== Our Projects Section =============================*/
