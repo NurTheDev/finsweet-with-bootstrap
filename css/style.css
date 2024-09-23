@@ -189,7 +189,19 @@ nav .customBtn:hover {
 }
 /* ============================== How we Work Section =============================*/
 /* ============================== Our Projects Section =============================*/
-
+.projectsContainer__more {
+  color: var(--primary-font-color);
+  font-size: var(--base-font);
+  font-weight: var(--font-500);
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.projectsContainer__more:hover {
+  color: var(--yellow-color);
+}
 .projectsContainer .leftProjectCard {
   background: url(../images/banner/Card.png);
   background-position: center;
@@ -288,5 +300,38 @@ nav .customBtn:hover {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 /* ============================== Our Projects Section =============================*/
+
+/* ======================== Featurs Section ================================ */
+#features {
+  background: var(--grey-color);
+}
+.features__title {
+  color: var(--primary-font-color);
+  font-size: var(--base-font);
+  font-weight: var(--font-500);
+  text-align: center;
+}
+#features .Customcard {
+  background: var(--white-color);
+  padding: 58px 32px 48px 48px;
+}
+#features .cardImg {
+  color: var(--Royal-blue);
+  font-size: var(--font-size-32);
+}
+#features .cardTitle {
+  font-size: var(--font-size-24);
+  font-weight: var(--font-500);
+  line-height: 36px;
+  color: var(--primary-font-color);
+}
+#features .cardText {
+  opacity: 0.7;
+  color: var(--primary-font-color);
+  font-size: var(--base-font);
+  font-weight: var(--font-400);
+  line-height: 28px;
+  max-width: 280px;
+}
+/* ======================== Featurs Section ================================ */
