@@ -57,6 +57,36 @@ img {
   font-weight: var(--font-600);
   line-height: 64px;
 }
+.subSectionTitle {
+  font-size: 38px;
+  font-weight: var(--font-600);
+  color: var(--primary-font-color);
+  line-height: 56px;
+}
+.heading_3 {
+  color: var(--primary-font-color);
+  font-size: var(--font-size-32);
+  line-height: 48px;
+  font-weight: var(--font-500);
+}
+.heading_4 {
+  font-size: var(--font-size-24);
+  color: var(--primary-font-color);
+  font-weight: var(--font-500);
+  line-height: 36px;
+}
+.summery {
+  font-size: var(--base-font);
+  line-height: 28px;
+  color: var(--primary-font-color);
+  opacity: 0.7;
+}
+.summeryWhite {
+  opacity: 0.7;
+  font-size: var(--base-font);
+  font-weight: var(--font-500);
+  line-height: 24px;
+}
 .customBtn {
   background: transparent;
   color: var(--white-color);
@@ -116,12 +146,7 @@ nav .customBtn:hover {
   font-weight: var(--font-600);
   line-height: 74px;
 }
-.heroSummery {
-  opacity: 0.7;
-  font-size: var(--base-font);
-  font-weight: var(--font-500);
-  line-height: 24px;
-}
+
 #heroSection .btn-modify {
   border: 1px solid rgba(244, 246, 252, 0.2);
 }
@@ -137,11 +162,11 @@ nav .customBtn:hover {
   background: var(--grey-color);
   padding: 128px 0;
 }
-#about .leftSummary {
-  color: var(--primary-font-color);
-  opacity: 0.7;
-  font-weight: var(--font-400);
-  font-size: var(--base-font);
+#about .customCard {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  row-gap: 16px;
 }
 #about .aboutBtn {
   color: var(--Royal-blue);
@@ -152,19 +177,7 @@ nav .customBtn:hover {
 #about .aboutBtn:hover {
   color: var(--primary-color);
 }
-#about .cardTitle {
-  color: var(--primary-font-color);
-  font-size: var(--font-size-32);
-  line-height: 48px;
-  font-weight: var(--font-500);
-}
-#about .cardText {
-  color: var(--primary-font-color);
-  font-size: var(--base-font);
-  line-height: 28px;
-  font-weight: 400;
-  opacity: 0.7;
-}
+
 /* *********How We work Section************ */
 /* ******* Our Projects Section ************  */
 #projectSection {
@@ -280,11 +293,43 @@ nav .customBtn:hover {
   line-height: 36px;
   color: var(--primary-font-color);
 }
-#features .featuresCard p {
-  font-size: var(--base-font);
-  line-height: 28px;
-  color: var(--primary-font-color);
-  opacity: 0.7;
-}
 
 /* ******** feature Section ************ */
+
+/* ******** client Section ************ */
+#client {
+  padding: 128px 0;
+  background: rgb(244, 246, 252, 0.5);
+}
+#client .clientName {
+  color: var(--primary-font-color);
+  line-height: 32px;
+  font-weight: 500;
+  font-size: var(--font-size-18);
+}
+#client .clientDesignation {
+  font-size: 12px;
+  font-weight: var(--font-500);
+  color: var(--primary-font-color);
+}
+/* ******** client Section ************ */
+/* ******** FAQ Section ************  */
+#FAQ {
+  padding: 128px 0;
+}
+#FAQ .leftFAQ a {
+  color: var(--Royal-blue);
+}
+#FAQ .leftFAQ a:hover {
+  color: red;
+}
+#FAQ .accordiaonNumber {
+  color: var(--Royal-blue);
+  font-size: var(--font-size-24);
+  font-weight: var(--font-500);
+  line-height: 36px;
+}
+#FAQ .customFAQSummery {
+  margin: 0 70px;
+}
+/* ******** FAQ Section ************  */
