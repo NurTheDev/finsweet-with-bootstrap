@@ -107,7 +107,7 @@ nav .customBtn:hover {
 /* ***************Hero section********************** */
 #heroSection {
   background: var(--primary-color);
-  min-height: 100vh;
+  max-height: 100vh;
   color: var(--white-color);
   padding: 200px 0;
 }
@@ -121,6 +121,9 @@ nav .customBtn:hover {
   font-size: var(--base-font);
   font-weight: var(--font-500);
   line-height: 24px;
+}
+#heroSection .btn-modify {
+  border: 1px solid rgba(244, 246, 252, 0.2);
 }
 #heroSection .customBtn:hover {
   background: var(--yellow-color);
@@ -163,3 +166,125 @@ nav .customBtn:hover {
   opacity: 0.7;
 }
 /* *********How We work Section************ */
+/* ******* Our Projects Section ************  */
+#projectSection {
+  padding: 128px 0;
+}
+#projectSection .projectSection_viewMore {
+  color: var(--primary-font-color);
+  font-size: var(--base-font);
+  font-weight: var(--font-500);
+  transition: 0.1s;
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+  -ms-transition: 0.1s;
+  -o-transition: 0.1s;
+}
+#projectSection .projectSection_viewMore:hover {
+  color: var(--Royal-blue);
+}
+
+#projectSection .cardOverly {
+  position: absolute;
+  background: linear-gradient(
+    329deg,
+    #1c1e53 -10.96%,
+    rgba(28, 30, 83, 0.42) 103.96%
+  );
+  height: 100%;
+  color: var(--white-color);
+  width: 0;
+  opacity: 0;
+  transition: 0.2s linear;
+  -webkit-transition: 0.2s linear;
+  -moz-transition: 0.2s linear;
+  -ms-transition: 0.2s linear;
+  -o-transition: 0.2s linear;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  row-gap: 16px;
+  overflow: hidden;
+}
+#projectSection .cardOverly h3 {
+  font-size: var(--font-size-24);
+  font-weight: var(--font-600);
+  line-height: 36px;
+}
+#projectSection .cardOverly p {
+  font-size: var(--base-font);
+  font-weight: var(--font-500);
+  opacity: 0.8;
+  line-height: 28px;
+}
+#projectSection .cardOverly a {
+  font-size: var(--base-font);
+  font-weight: var(--font-500);
+  color: var(--yellow-color);
+}
+#projectSection .cardOverly a:hover {
+  color: var(--Royal-blue);
+}
+#projectSection .leftCard--modify {
+  padding: 40px;
+  gap: 16px;
+  left: 0;
+}
+#projectSection .leftCard:hover .cardOverly {
+  width: 48%;
+  opacity: 1;
+}
+#projectSection .rightCard--modify {
+  padding: 0 56px 48px;
+}
+#projectSection .rightCard:hover .cardOverly {
+  width: 100%;
+  opacity: 1;
+}
+/* ******* Our Projects Section ************  */
+
+/* ******** feature Section ************ */
+#features {
+  background: var(--grey-color);
+  padding: 128px 0;
+}
+#features .headingPart h2 {
+  max-width: 630px;
+}
+#features .featuresCard {
+  background: var(--white-color);
+  padding: 58px 32px 48px 48px;
+  row-gap: 12px;
+  transition: 0.3s linear;
+  -webkit-transition: 0.3s linear;
+  -moz-transition: 0.3s linear;
+  -ms-transition: 0.3s linear;
+  -o-transition: 0.3s linear;
+}
+#features .featuresCard:hover {
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  transform: scale(1.04);
+  -webkit-transform: scale(1.04);
+  -moz-transform: scale(1.04);
+  -ms-transform: scale(1.04);
+  -o-transform: scale(1.04);
+}
+#features .featuresCard span {
+  color: var(--Royal-blue);
+  font-size: var(--font-size-32);
+}
+#features .featuresCard h4 {
+  font-size: var(--font-size-24);
+  font-weight: var(--font-500);
+  line-height: 36px;
+  color: var(--primary-font-color);
+}
+#features .featuresCard p {
+  font-size: var(--base-font);
+  line-height: 28px;
+  color: var(--primary-font-color);
+  opacity: 0.7;
+}
+
+/* ******** feature Section ************ */
