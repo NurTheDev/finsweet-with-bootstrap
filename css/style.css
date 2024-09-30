@@ -365,7 +365,7 @@ nav .customBtn:hover {
 #inquary .inquaryRight {
   background: var(--primary-color);
   color: var(--white-color);
-  padding: 96px 96px 0;
+  padding: 56px 96px 0;
 }
 .formTitle_modify {
   color: var(--white-color);
@@ -392,7 +392,7 @@ nav .customBtn:hover {
   color: var(--primary-font-color);
   background: var(--yellow-color);
 }
-#inquary .customBtn:hover {
+#inquary .customBtn_nonActive:hover {
   color: var(--yellow-color);
 }
 /* ******** inquary Section ************  */

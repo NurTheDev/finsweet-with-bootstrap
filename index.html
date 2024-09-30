@@ -639,7 +639,7 @@
           </div>
           <div class="col-lg-6">
             <div
-              class="inquaryRight d-flex flex-column justify-content-between h-100"
+              class="inquaryRight d-flex flex-column justify-content-evenly h-100"
             >
               <div class="formHeader">
                 <h3 class="heading_3 formTitle_modify">Send inquiry</h3>
@@ -648,7 +648,10 @@
                   do eiusmod tempor incididunt ut labore.
                 </p>
               </div>
-              <form action="#" class="d-flex flex-column">
+              <form
+                action="#"
+                class="d-flex flex-column justify-content-evenly h-100"
+              >
                 <div class="inputContainer d-flex flex-column row-gap-3">
                   <input
                     class="formInput"
@@ -669,11 +672,13 @@
                     aria-label="default input example"
                   />
                 </div>
-                <div class="btnContainer d-flex flex-column my-5 row-gap-4">
+                <div
+                  class="btnContainer d-flex flex-column justify-content-around row-gap-2"
+                >
                   <button class="customBtn customBtn_modify">
                     Send an Inquiry
                   </button>
-                  <button class="customBtn">
+                  <button class="customBtn customBtn_nonActive">
                     Get in touch with us
                     <span><i class="fa-regular fa-arrow-right-long"></i></span>
                   </button>
