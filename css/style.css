@@ -137,7 +137,7 @@ nav .customBtn:hover {
 /* ***************Hero section********************** */
 #heroSection {
   background: var(--primary-color);
-  max-height: 100vh;
+  min-height: 100vh;
   color: var(--white-color);
   padding: 200px 0;
 }
@@ -331,5 +331,24 @@ nav .customBtn:hover {
 }
 #FAQ .customFAQSummery {
   margin: 0 70px;
+}
+.accordion-button::after {
+  flex-shrink: 0;
+  width: var(--bs-accordion-btn-icon-width);
+  height: var(--bs-accordion-btn-icon-width);
+  margin-left: auto;
+  content: "";
+  background-image: url(../images/badge/plus.png);
+  background-repeat: no-repeat;
+  background-size: var(--bs-accordion-btn-icon-width);
+  transition: var(--bs-accordion-btn-icon-transition);
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url(../images/badge/plus.png);
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
 }
 /* ******** FAQ Section ************  */
