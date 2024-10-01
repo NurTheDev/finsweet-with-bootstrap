@@ -151,6 +151,14 @@ nav .customBtn:hover {
   line-height: 74px;
 }
 /* ***************designSolve section****************** */
+/* *********** Who We are Section ********** */
+#weAre {
+  background: #f4f5f5;
+}
+#weAre .weAreContainer {
+  padding: 80px 0;
+}
+/* *********** Who We are Section ********** */
 
 /* *************** Footer Section ***************- */
 footer .uperSection {
