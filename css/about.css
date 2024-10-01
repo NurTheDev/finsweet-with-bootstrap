@@ -159,6 +159,25 @@ nav .customBtn:hover {
   padding: 80px 0;
 }
 /* *********** Who We are Section ********** */
+/* *********** we Follow Section********** */
+#weFollow {
+  padding: 128px 0;
+}
+#weFollow .circle {
+  width: 24px;
+  height: 24px;
+  background: var(--Royal-blue);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+#weFollow .line {
+  border: 2px dashed var(--Royal-blue);
+  flex-grow: 1;
+}
+/* *********** we Follow Section********** */
 
 /* *************** Footer Section ***************- */
 footer .uperSection {
