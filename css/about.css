@@ -178,6 +178,103 @@ nav .customBtn:hover {
   flex-grow: 1;
 }
 /* *********** we Follow Section********** */
+/* *********** our Mission Section********** */
+#mission {
+  background: #eef4fa;
+  padding: 128px 0;
+}
+#mission .missionContainer {
+  row-gap: 96px;
+}
+/* *********** our Mission Section********** */
+
+/* *********** benefits Section**********  */
+#benefits {
+  padding: 128px 0;
+}
+#benefits .benefitsCard {
+  background: var(--grey-color);
+  row-gap: 12px;
+  padding: 50px 32px 48px 48px;
+  transition: 0.3s linear;
+  -webkit-transition: 0.3s linear;
+  -moz-transition: 0.3s linear;
+  -ms-transition: 0.3s linear;
+  -o-transition: 0.3s linear;
+}
+#benefits .benefitsCard:hover {
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  transform: scale(1.04);
+  -webkit-transform: scale(1.04);
+  -moz-transform: scale(1.04);
+  -ms-transform: scale(1.04);
+  -o-transform: scale(1.04);
+}
+#benefits .benefitsCard span {
+  color: var(--Royal-blue);
+  font-size: var(--font-size-32);
+}
+/* *********** benefits Section**********  */
+/* *********** Meet Our Team Section********** */
+#team {
+  background: var(--grey-color);
+  padding: 128px 0;
+}
+#team .teamCard {
+  background: var(--white-color);
+  padding: 48px 64px;
+}
+#team .memberImg {
+  width: 168px;
+  height: 168px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+#team .bgImg1 {
+  background-image: url(../images/about_page/member/member1.png);
+}
+#team .bgImg2 {
+  background-image: url(../images/about_page/member/member2.png);
+}
+#team .bgImg3 {
+  background-image: url(../images/about_page/member/member3.png);
+}
+#team .bgImg4 {
+  background-image: url(../images/about_page/member/member4.png);
+}
+#team .memberImg .overly {
+  height: 168px;
+  width: 168px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  padding: 0 55px 30px;
+  color: var(--white-color);
+  background: linear-gradient(
+    348deg,
+    #5239fa 17.97%,
+    rgba(255, 255, 255, 0) 79.2%
+  );
+  font-size: var(--font-size-18);
+  opacity: 0;
+  transition: 0.3s linear;
+  -webkit-transition: 0.3s linear;
+  -moz-transition: 0.3s linear;
+  -ms-transition: 0.3s linear;
+  -o-transition: 0.3s linear;
+}
+#team .memberImg:hover .overly {
+  opacity: 1;
+}
+#team .memberImg .overly span:hover {
+  color: var(--yellow-color);
+}
+/* *********** Meet Our Team Section********** */
 
 /* *************** Footer Section ***************- */
 footer .uperSection {

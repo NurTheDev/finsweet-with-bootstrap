@@ -288,13 +288,6 @@ nav .customBtn:hover {
   color: var(--Royal-blue);
   font-size: var(--font-size-32);
 }
-#features .featuresCard h4 {
-  font-size: var(--font-size-24);
-  font-weight: var(--font-500);
-  line-height: 36px;
-  color: var(--primary-font-color);
-}
-
 /* ******** feature Section ************ */
 
 /* ******** client Section ************ */
