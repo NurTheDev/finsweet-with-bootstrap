@@ -141,60 +141,79 @@ nav .customBtn:hover {
   color: var(--primary-font-color);
 }
 /* ***************Navbar section********************** */
-/* ************* Price Section ************* */
-#price {
+/* ***************Hero section********************** */
+#heroSection {
+  background: var(--primary-color);
+  min-height: 80vh;
+  color: var(--white-color);
+  padding: 200px 0;
+}
+.heroTitle {
+  font-size: 54px;
+  font-weight: var(--font-600);
+  line-height: 74px;
+  max-width: 468px;
+}
+
+#heroSection .btn-modify {
+  border: 1px solid rgba(244, 246, 252, 0.2);
+}
+#heroSection .customBtn:hover {
+  background: var(--yellow-color);
+  color: var(--primary-font-color);
+}
+/* ***************Hero section********************** */
+/* *********** benefits Section**********  */
+#benefits {
   padding: 128px 0;
 }
-#price .priceCard {
+#benefits .benefitsCard {
   background: var(--grey-color);
-  border-radius: 12px;
-  -webkit-border-radius: 12px;
-  -moz-border-radius: 12px;
-  -ms-border-radius: 12px;
-  -o-border-radius: 12px;
-  padding: 48px 64px;
-  row-gap: 78px;
+  row-gap: 12px;
+  padding: 50px 32px 48px 48px;
   transition: 0.3s linear;
   -webkit-transition: 0.3s linear;
   -moz-transition: 0.3s linear;
   -ms-transition: 0.3s linear;
   -o-transition: 0.3s linear;
 }
-
-#price .priceCard span {
+#benefits .benefitsCard:hover {
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  transform: scale(1.04);
+  -webkit-transform: scale(1.04);
+  -moz-transform: scale(1.04);
+  -ms-transform: scale(1.04);
+  -o-transform: scale(1.04);
+}
+#benefits .benefitsCard span {
   color: var(--Royal-blue);
-  margin-bottom: 12px;
+  font-size: var(--font-size-32);
 }
-#price .priceCard .cardMain {
-  color: var(--primary-font-color);
-  row-gap: 22px;
-  position: relative;
+/* *********** benefits Section**********  */
+/* *********** Client Section********** */
+#client {
+  padding: 0 0 128px;
+  background: var(--white-color);
 }
-#price .priceCard .cardMain p::before {
-  content: url(../images/about_page/svg/Pointer.svg);
-  left: -32px;
-  position: absolute;
+/* *********** Client Section********** */
+/* *********** Revision Section********** */
+#revision {
+  background: var(--grey-color);
+  padding: 128px 0;
 }
-#price .priceCard .cardMain p:nth-last-child(1),
-#price .priceCard .cardMain p:nth-last-child(2) {
-  opacity: 0.7;
+/* *********** Revision Section********** */
+/* *********** support Section********** */
+#support {
+  padding: 128px 0;
+  background: var(--white-color);
 }
-#price .priceBtn {
-  background: #282938;
-  color: var(--grey-color);
-  font-size: 18px;
-  font-weight: var(--font-600);
-  line-height: 32px;
-  padding: 15px 51px;
-  border-radius: 41px;
-  -webkit-border-radius: 41px;
-  -moz-border-radius: 41px;
-  -ms-border-radius: 41px;
-  -o-border-radius: 41px;
-  cursor: pointer;
+/* *********** support Section********** */
+/* *********** delivery Section********** */
+#delivery {
+  background: rgba(252, 217, 128, 0.1);
+  padding: 128px 0;
 }
-/* ************* Price Section ************* */
-
+/* *********** delivery Section********** */
 /* ******** FAQ Section ************  */
 #FAQ {
   padding: 128px 0;
