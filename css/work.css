@@ -1,0 +1,200 @@
+/* =========== Google Poppins font link ============*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* ======== Google Poppins font link ============*/
+/* ============ Common CSS ==================== */
+:root {
+  --primary-color: #1c1e53;
+  --primary-font-color: #282938;
+  --white-color: #fff;
+  --Royal-blue: #2405f2;
+  --grey-color: #f4f6fc;
+  --yellow-color: #fcd980;
+  --accenet-color: #eef4fa;
+  /* font weight */
+  --font-700: 700;
+  --font-600: 600;
+  --font-500: 500;
+  --font-400: 400;
+  /* font size */
+  --base-font: 16px;
+  --font-size-18: 18px;
+  --font-size-24: 24px;
+  --font-size-32: 32px;
+  --font-size-48: 48px;
+  /* font family */
+  --poppins: "Poppins", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: var(--poppins);
+}
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+ul,
+li,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+span {
+  display: inline-block;
+}
+img {
+  vertical-align: middle;
+}
+.sectionTitle {
+  font-size: var(--font-size-48);
+  color: var(--primary-font-color);
+  font-weight: var(--font-600);
+  line-height: 64px;
+}
+.subSectionTitle {
+  font-size: 38px;
+  font-weight: var(--font-600);
+  color: var(--primary-font-color);
+  line-height: 56px;
+}
+.heading_3 {
+  color: var(--primary-font-color);
+  font-size: var(--font-size-32);
+  line-height: 48px;
+  font-weight: var(--font-500);
+}
+.heading_4 {
+  font-size: var(--font-size-24);
+  color: var(--primary-font-color);
+  font-weight: var(--font-500);
+  line-height: 36px;
+}
+.summery {
+  font-size: var(--base-font);
+  line-height: 28px;
+  color: var(--primary-font-color);
+  opacity: 0.7;
+}
+.summeryWhite {
+  opacity: 0.7;
+  font-size: var(--base-font);
+  font-weight: var(--font-500);
+  line-height: 24px;
+  color: var(--white-color);
+}
+.littleTitle {
+  font-size: var(--font-size-18);
+  font-weight: var(--font-500);
+  color: var(--primary-font-color);
+  line-height: 32px;
+}
+.customBtn {
+  background: transparent;
+  color: var(--white-color);
+  padding: 16px 48px;
+  border: none;
+  border-radius: 48px;
+  -webkit-border-radius: 48px;
+  -moz-border-radius: 48px;
+  -ms-border-radius: 48px;
+  -o-border-radius: 48px;
+  transition: 0.2s linear;
+  -webkit-transition: 0.2s linear;
+  -moz-transition: 0.2s linear;
+  -ms-transition: 0.2s linear;
+  -o-transition: 0.2s linear;
+  font-size: var(--base-font);
+  font-weight: var(--font-500);
+}
+/* ============Common CSS ================ */
+/* ***************Navbar section***********************/
+.coustomNav {
+  background-color: var(--primary-color);
+}
+.coustomNav a {
+  color: #bbbbcb;
+}
+
+.navLink {
+  font-size: var(--base-font);
+  font-weight: var(--font-500);
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.navLink:hover {
+  color: var(--white-color);
+}
+nav .customBtn--modify {
+  border: 1px solid rgba(244, 246, 252, 0.2);
+}
+nav .customBtn:hover {
+  background: var(--yellow-color);
+  color: var(--primary-font-color);
+}
+/* ***************Navbar section********************** */
+
+/* *************** Footer Section ***************- */
+footer .uperSection {
+  background: var(--primary-color);
+  padding: 100px 0 0;
+}
+footer .uperSection .footerLeft {
+  row-gap: 86px;
+}
+footer .uperSection .footer {
+  background: var(--yellow-color);
+  color: var(--primary-font-color);
+  padding: 18px 37px;
+  gap: 30px;
+}
+footer .uperSection .footer .email,
+footer .uperSection .footer .call {
+  font-size: var(--font-size-18);
+  font-weight: var(--font-500);
+  line-height: 32px;
+}
+footer .footerRight .footerTile_modify {
+  color: var(--white-color);
+}
+footer .footerRight .social {
+  color: var(--white-color);
+  cursor: pointer;
+}
+footer .footerRight .social span {
+  transition: 0.2s ease-in-out;
+  -webkit-transition: 0.2s ease-in-out;
+  -moz-transition: 0.2s ease-in-out;
+  -ms-transition: 0.2s ease-in-out;
+  -o-transition: 0.2s ease-in-out;
+  padding: 7px 12px;
+  border-radius: 50%;
+}
+footer .footerRight .social span:hover {
+  color: var(--primary-font-color);
+  background: var(--yellow-color);
+  padding: 7px 12px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+footer .loweSection {
+  padding: 32px 0;
+}
+footer .loweSection .navLink {
+  color: var(--primary-font-color);
+}
+footer .loweSection .navLink:hover {
+  color: var(--Royal-blue);
+}
+/* *************** Footer Section ***************- */
