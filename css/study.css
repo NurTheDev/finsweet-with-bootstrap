@@ -113,6 +113,7 @@ img {
   font-weight: var(--font-500);
 }
 /* ============Common CSS ================ */
+
 /* ***************Navbar section***********************/
 .coustomNav {
   background-color: var(--primary-color);
@@ -141,23 +142,66 @@ nav .customBtn:hover {
   color: var(--primary-font-color);
 }
 /* ***************Navbar section********************** */
-/* *************Portfolio section************* */
-#portfolio {
-  background: var(--grey-color);
-  padding: 128px 0;
-}
-#portfolio .portfolioContainer {
-  max-width: 733px;
-}
-/* *************Portfolio section************* */
-/* *************Design section*************  */
+/* ********* Design Section ************* */
 #design {
-  padding: 128px 0;
+  padding: 200px 0 128px;
 }
-#design .designUl {
-  column-gap: 2rem;
+#design .template,
+#aboutProject .template {
+  width: 100%;
+  overflow: hidden;
+  padding: 60px 90px;
 }
-#design .designUl a {
+#design .template_1 {
+  background: linear-gradient(131deg, #f4ede1 16.74%, #98b1c6 103.17%);
+}
+
+#design .template img,
+#aboutProject .template img {
+  transition: 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+}
+#design .template img:hover,
+#aboutProject .template img:hover {
+  transform: scale(1.25);
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  -o-transform: scale(1.25);
+}
+/* ********* Design Section ************* */
+/* ******** About Project Section *********** */
+#aboutProject {
+  padding: 0 0 128px;
+}
+#aboutProject .point_modify::before {
+  position: absolute;
+  content: "";
+  width: 5px;
+  height: 5px;
+  background: #000;
+  display: block;
+  left: -20px;
+  top: 50%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+#aboutProject .template_2 {
+  background: linear-gradient(131deg, #f4ede1 16.74%, #98b1c6 103.17%);
+}
+#aboutProject .studyNav {
+  margin-top: 80px;
+  padding: 26px 0;
+  border-top: 1px solid var(--primary-font-color);
+  border-bottom: 1px solid var(--primary-font-color);
+}
+#aboutProject .studyNav .designUl a {
   opacity: 0.7;
   transition: 0.2s linear;
   -webkit-transition: 0.2s linear;
@@ -165,58 +209,15 @@ nav .customBtn:hover {
   -ms-transition: 0.2s linear;
   -o-transition: 0.2s linear;
 }
-#design .designUl a:hover,
-#design .template a:hover {
+#aboutProject .studyNav .designUl a:hover {
   color: var(--Royal-blue);
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
 }
-
-#design .template a {
-  color: var(--primary-font-color);
-  transition: 0.2s linear;
-  -webkit-transition: 0.2s linear;
-  -moz-transition: 0.2s linear;
-  -ms-transition: 0.2s linear;
-  -o-transition: 0.2s linear;
-  font-weight: var(--font-500);
-}
-#design .template .templeteImg {
-  width: 100%;
-  overflow: hidden;
-  padding: 40px;
-}
-#design .template .templeteImg_1 {
-  background: linear-gradient(131deg, #f4ede1 16.74%, #98b1c6 103.17%);
-}
-#design .template .templeteImg_2 {
-  background: linear-gradient(131deg, #ffd3af 16.74%, #4f56ff 103.17%);
-}
-#design .template .templeteImg_3 {
-  background: linear-gradient(131deg, #eebca7 16.74%, #c8c8c8 103.17%);
-}
-#design .template .templeteImg_4 {
-  background: linear-gradient(131deg, #c2e7f2 16.74%, #98a4ff 103.17%);
-}
-#design .template .templeteImg_5 {
-  background: linear-gradient(131deg, #c5bcff 16.74%, #9bf6d5 103.17%);
-}
-#design .template .templeteImg_6 {
-  background: linear-gradient(131deg, #d2d6fd 16.74%, #d6acea 103.17%);
-}
-#design .template .templeteImg img {
-  transition: 0.3s ease-in-out;
-  -webkit-transition: 0.3s ease-in-out;
-  -moz-transition: 0.3s ease-in-out;
-  -ms-transition: 0.3s ease-in-out;
-  -o-transition: 0.3s ease-in-out;
-}
-#design .template .templeteImg img:hover {
-  transform: scale(1.25);
-  -webkit-transform: scale(1.25);
-  -moz-transform: scale(1.25);
-  -ms-transform: scale(1.25);
-  -o-transform: scale(1.25);
-}
-/* *************Design section*************  */
+/* ******** About Project Section *********** */
 /* *************Together section************* */
 
 #together {
@@ -271,9 +272,8 @@ footer .footerRight .social {
   color: var(--white-color);
   cursor: pointer;
 }
-/* footer + portfolio section span */
-footer .footerRight .social span,
-#portfolio .portfolioContainer span {
+
+footer .footerRight .social span {
   transition: 0.2s ease-in-out;
   -webkit-transition: 0.2s ease-in-out;
   -moz-transition: 0.2s ease-in-out;
@@ -282,8 +282,7 @@ footer .footerRight .social span,
   padding: 7px 12px;
   border-radius: 50%;
 }
-footer .footerRight .social span:hover,
-#portfolio .portfolioContainer span:hover {
+footer .footerRight .social span:hover {
   color: var(--primary-font-color);
   background: var(--yellow-color);
   padding: 7px 12px;
@@ -293,7 +292,7 @@ footer .footerRight .social span:hover,
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
 }
-/* footer + portfolio section span */
+
 footer .loweSection {
   padding: 32px 0;
 }
