@@ -144,53 +144,19 @@ nav .customBtn:hover {
 /* ***************Navbar section********************** */
 /* ***************enviorment section****************** */
 #environment {
-  padding: 128px 0;
-}
-#environment .environmentContant {
-  padding: 96px 0 0;
-}
-#environment .environmentContant a {
-  color: var(--primary-font-color);
-}
-#environment .environmentContant a:hover {
-  color: var(--Royal-blue);
+  padding: 128px 0 76px;
 }
 /* ***************enviorment section****************** */
-/* ******* Blog Section ********* */
-#blog {
+/* ****** Blog Summery Section ****** */
+.blog_container {
+  max-width: 841px;
+  margin: 0 auto;
   padding: 0 0 128px;
 }
-#blog .blogCard {
-  transition: 0.3s ease;
-  -webkit-transition: 0.3s ease;
-  -moz-transition: 0.3s ease;
-  -ms-transition: 0.3s ease;
-  -o-transition: 0.3s ease;
+.blog_container .blogMain li {
+  list-style: disc;
 }
-#blog .blogCard:hover {
-  box-shadow: rgba(0, 0, 255, 0.1) 0px 1px 1px 0px inset,
-    rgba(2, 2, 228, 0.25) 0px 50px 100px -20px,
-    rgba(0, 51, 255, 0.3) 0px 30px 60px -30px;
-}
-#blog .readMore {
-  color: var(--primary-font-color);
-  font-size: var(--base-font);
-  font-weight: var(--font-500);
-  transition: 0.1s;
-  -webkit-transition: 0.1s;
-  -moz-transition: 0.1s;
-  -ms-transition: 0.1s;
-  -o-transition: 0.1s;
-}
-#blog .readMore:hover {
-  color: var(--Royal-blue);
-  transform: scale(1.04);
-  -webkit-transform: scale(1.04);
-  -moz-transform: scale(1.04);
-  -ms-transform: scale(1.04);
-  -o-transform: scale(1.04);
-}
-/* ******* Blog Section ********* */
+/* ****** Blog Summery Section ****** */
 /* *************** Footer Section ***************- */
 footer .uperSection {
   background: var(--primary-color);
