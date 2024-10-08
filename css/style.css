@@ -429,6 +429,9 @@ footer .uperSection {
   background: var(--primary-color);
   padding: 100px 0 0;
 }
+footer .uperSection .header > p {
+  width: 75%;
+}
 footer .uperSection .footerLeft {
   row-gap: 86px;
 }

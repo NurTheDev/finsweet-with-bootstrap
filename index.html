@@ -50,17 +50,18 @@
     <!-- Font Awesome link -->
     <!-- coutom css link -->
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
     <!-- coutom css link -->
   </head>
   <body>
     <!-- ***************Navbar section********************** -->
     <header class="position-fixed w-100 z-1">
       <nav class="navbar navbar-expand-lg coustomNav">
-        <div class="container">
+        <div class="container ps-0">
           <a href="#"
             ><picture
               ><img
-                class="w-100 img-fluid"
+                class="w-100 img-fluid ms-sm-1"
                 src="images/Logo.png"
                 alt="images/Logo.png" /></picture
           ></a>
@@ -80,24 +81,24 @@
             id="navbarNav"
           >
             <ul
-              class="d-flex flex-column align-items-center flex-lg-row mb-0 gap-3 gap-lg-5"
+              class="d-flex flex-column align-items-center flex-lg-row mb-0 gap-3 gap-lg-5 ps-0 navUl"
             >
-              <li>
+              <li class="navLi">
                 <a class="navLink" href="index.html">Home</a>
               </li>
-              <li>
+              <li class="navLi">
                 <a class="navLink" href="about.html">About Us</a>
               </li>
-              <li>
+              <li class="navLi">
                 <a class="navLink" href="features.html">Features</a>
               </li>
-              <li>
+              <li class="navLi">
                 <a class="navLink" href="price.html">Pricing</a>
               </li>
-              <li>
+              <li class="navLi">
                 <a class="navLink" href="#FAQ">FAQ</a>
               </li>
-              <li>
+              <li class="navLi">
                 <a class="navLink" href="blog.html">Blog</a>
               </li>
               <button
@@ -125,7 +126,7 @@
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt.
               </p>
-              <div class="btnContainer">
+              <div class="btnContainer p-3 p-lg-0 row-gap-3">
                 <button
                   onclick="window.location.href='work.html'"
                   class="customBtn btn-modify"
@@ -178,28 +179,29 @@
             </div>
           </div>
           <div class="col-lg-7">
-            <div class="row g-5">
-              <div class="customCard col-lg-6">
-                <img
-                  src="images/badge/pointer 1.png"
-                  class="img-fluid"
-                  alt="..."
-                />
-                <div class="d-flex flex-column gap-1">
-                  <h5 class="heading_3">Strategy</h5>
+            <div class="row g-lg-5 g-3">
+              <div class="col-lg-6">
+                <div class="customCard">
+                  <img
+                    src="images/badge/pointer 1.png"
+                    class="aboutCustomImg img-fluid"
+                    alt="images/badge/pointer 1.png"
+                  />
+                  <h5 class="heading_3">Development</h5>
                   <p class="summery">
                     Euismod faucibus turps eu gravida mi. Pellentesque et velit
                     aliquam .
                   </p>
                 </div>
               </div>
-              <div class="customCard col-lg-6">
-                <img
-                  src="images/badge/pointer 2.png"
-                  class="aboutCustomImg img-fluid"
-                  alt="..."
-                />
-                <div class="cardBody">
+              <div class="col-lg-6">
+                <div class="customCard">
+                  <img
+                    src="images/badge/pointer 2.png"
+                    class="aboutCustomImg img-fluid"
+                    alt="..."
+                  />
+
                   <h5 class="heading_3">Wireframing</h5>
                   <p class="summery">
                     Euismod faucibus turps eu gravida mi. Pellentesque et velit
@@ -207,14 +209,14 @@
                   </p>
                 </div>
               </div>
+              <div class="col-lg-6">
+                <div class="customCard">
+                  <img
+                    src="images/badge/pointer 3.png"
+                    class="aboutCustomImg img-fluid"
+                    alt="..."
+                  />
 
-              <div class="customCard col-lg-6">
-                <img
-                  src="images/badge/pointer 3.png"
-                  class="aboutCustomImg img-fluid"
-                  alt="..."
-                />
-                <div class="cardBody">
                   <h5 class="heading_3">Strategy</h5>
                   <p class="summery">
                     Euismod faucibus turps eu gravida mi. Pellentesque et velit
@@ -222,13 +224,13 @@
                   </p>
                 </div>
               </div>
-              <div class="customCard col-lg-6">
-                <img
-                  src="images/badge/pointer 4.png"
-                  class="aboutCustomImg img-fluid"
-                  alt="..."
-                />
-                <div class="cardBody">
+              <div class="col-lg-6">
+                <div class="customCard">
+                  <img
+                    src="images/badge/pointer 4.png"
+                    class="aboutCustomImg img-fluid"
+                    alt="..."
+                  />
                   <h5 class="heading_3">Development</h5>
                   <p class="summery">
                     Euismod faucibus turps eu gravida mi. Pellentesque et velit
@@ -246,11 +248,13 @@
     <!-- ******** Our Projects Section ************ -->
     <section id="projectSection">
       <div class="container">
-        <div class="row justify-content-between align-items-center pb-lg-5">
+        <div
+          class="row justify-content-between align-items-center pb-3 pb-lg-5"
+        >
           <div class="col-lg-5">
             <div><h2 class="sectionTitle">View our projects</h2></div>
           </div>
-          <div class="col-lg-2">
+          <div class="col-lg-2 text-center text-lg-start">
             <div>
               <a class="projectSection_viewMore" href="work.html"
                 >View More
@@ -352,7 +356,9 @@
         </div>
         <div class="row g-4 pt-5">
           <div class="col-lg-4">
-            <div class="featuresCard d-flex flex-column">
+            <div
+              class="featuresCard d-flex flex-column align-items-center align-items-lg-start text-center text-lg-start"
+            >
               <span><i class="fa-solid fa-people-group"></i></span>
               <h4 class="heading_4">Uses Client First</h4>
               <p class="summery">
@@ -363,7 +369,9 @@
             </div>
           </div>
           <div class="col-lg-4">
-            <div class="featuresCard d-flex flex-column">
+            <div
+              class="featuresCard d-flex flex-column align-items-center align-items-lg-start text-center text-lg-start"
+            >
               <span><i class="fa-sharp fa-solid fa-circle-check"></i></span>
               <h4 class="heading_4">Two Free Revision Round</h4>
               <p class="summery">
@@ -374,7 +382,9 @@
             </div>
           </div>
           <div class="col-lg-4">
-            <div class="featuresCard d-flex flex-column">
+            <div
+              class="featuresCard d-flex flex-column align-items-center align-items-lg-start text-center text-lg-start"
+            >
               <span><i class="fa-solid fa-pen-ruler"></i></span>
               <h4 class="heading_4">Template Customization</h4>
               <p class="summery">
@@ -385,7 +395,9 @@
             </div>
           </div>
           <div class="col-lg-4">
-            <div class="featuresCard d-flex flex-column">
+            <div
+              class="featuresCard d-flex flex-column align-items-center align-items-lg-start text-center text-lg-start"
+            >
               <span><i class="fa-solid fa-comments-question"></i></span>
               <h4 class="heading_4">24/7 Support</h4>
               <p class="summery">
@@ -396,7 +408,9 @@
             </div>
           </div>
           <div class="col-lg-4">
-            <div class="featuresCard d-flex flex-column">
+            <div
+              class="featuresCard d-flex flex-column align-items-center align-items-lg-start text-center text-lg-start"
+            >
               <span><i class="fa-sharp fa-solid fa-stopwatch"></i></span>
               <h4 class="heading_4">Quick Delivery</h4>
               <p class="summery">
@@ -407,7 +421,9 @@
             </div>
           </div>
           <div class="col-lg-4">
-            <div class="featuresCard d-flex flex-column">
+            <div
+              class="featuresCard d-flex flex-column align-items-center align-items-lg-start text-center text-lg-start"
+            >
               <span><i class="fa-solid fa-notebook"></i></span>
               <h4 class="heading_4">Hands-on approach</h4>
               <p class="summery">
@@ -426,7 +442,7 @@
       <div class="container">
         <div class="row g-5">
           <div class="col-lg-4">
-            <div class="d-flex flex-column row-gap-2">
+            <div class="d-flex flex-column row-gap-2 text-center text-lg-start">
               <h2 class="subSectionTitle">What our clients say about us</h2>
               <p class="summery">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.
@@ -434,7 +450,9 @@
             </div>
           </div>
           <div class="col-lg-8">
-            <div class="d-flex flex-column row-gap-4">
+            <div
+              class="d-flex flex-column row-gap-4 align-items-center align-items-lg-start text-center text-lg-start"
+            >
               <h3 class="heading_3">
                 "The best agency we’ve worked with so far. They understand our
                 product and are able to add new features with a great focus."
@@ -462,13 +480,15 @@
     <section id="FAQ">
       <div class="container">
         <div class="row">
-          <div class="col-lg-4">
-            <div class="leftFAQ d-flex flex-column row-gap-3">
+          <div class="col-lg-4 h-100">
+            <div
+              class="leftFAQ d-flex flex-column row-gap-3 text-center text-lg-start"
+            >
               <h3 class="subSectionTitle">Frequently asked questions</h3>
               <a href="contact.html">Contact us for more info</a>
             </div>
           </div>
-          <div class="col-lg-8">
+          <div class="col-lg-8 h-100">
             <div class="accordion accordion-flush" id="accordionFlushExample">
               <div class="accordion-item">
                 <div class="accordion-header my-2">
@@ -630,18 +650,18 @@
       <div class="container">
         <div class="row g-0">
           <div class="col-lg-6">
-            <div class="inquaryLeft position-relative">
+            <div class="inquaryLeft position-relative h-100">
               <picture
                 ><img
-                  class="w-100 img-fluid"
+                  class="w-100 img-fluid h-100"
                   src="images/banner/writing.png"
                   alt="images/banner/writing.png"
               /></picture>
               <div class="overly position-absolute top-0 start-0 h-100">
-                <h2 class="heroTitle">
+                <h2 class="heroTitle text-center text-lg-start">
                   Building stellar websites for early startups
                 </h2>
-                <p class="summeryWhite">
+                <p class="summeryWhite text-center text-lg-start">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua
                   ut enim.
@@ -654,8 +674,12 @@
               class="inquaryRight d-flex flex-column justify-content-evenly h-100"
             >
               <div class="formHeader">
-                <h3 class="heading_3 formTitle_modify">Send inquiry</h3>
-                <p class="summeryWhite">
+                <h3
+                  class="heading_3 formTitle_modify text-center text-lg-start"
+                >
+                  Send inquiry
+                </h3>
+                <p class="summeryWhite text-center text-lg-start">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore.
                 </p>
@@ -797,7 +821,7 @@
                       src="images/Logo.png"
                       alt="images/Logo.png"
                   /></picture>
-                  <p class="summeryWhite mt-4 w-75">
+                  <p class="summeryWhite mt-4">
                     We are always open to discuss your project and improve your
                     online presence.
                   </p>
@@ -823,7 +847,9 @@
                   We are always open to discuss your project, improve your
                   online presence and help with your UX/UI design challenges.
                 </p>
-                <div class="social d-flex gap-1 align-items-center">
+                <div
+                  class="social d-flex gap-1 align-items-center justify-content-center justify-content-lg-start"
+                >
                   <span><i class="fa-brands fa-facebook-f"></i></span
                   ><span><i class="fa-brands fa-x-twitter"></i></span
                   ><span><i class="fa-brands fa-instagram"></i></span
@@ -838,11 +864,11 @@
         <div class="container">
           <div class="row justify-content-between align-items-center">
             <div class="col-lg-3">
-              <p class="mb-0">Copyright 2022, Finsweet.com</p>
+              <p class="mb-5 mb-lg-0">Copyright 2022, Finsweet.com</p>
             </div>
             <div class="col-lg-5">
               <ul
-                class="d-flex align-items-center flex-lg-row gap-3 justify-content-between mb-0"
+                class="d-flex align-items-center flex-lg-row gap-3 justify-content-between mb-0 p-0"
               >
                 <li>
                   <a class="navLink" href="index.html">Home</a>
