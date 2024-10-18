@@ -1,2 +1,4 @@
-@import url("../responsive_css/mediumDevice.css");
-@import url("../responsive_css/smallDevice.css");
+@import url(../responsive_css/largeDevice.css);
+@import url("../responsive_css/MediumDevice.css");
+@import url("../responsive_css/SmallDevice.css");
+@import url("../responsive_css/ExtraSmall.css");

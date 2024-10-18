@@ -1,0 +1,165 @@
+@media (max-width: 575.98px) {
+  :root {
+    /* font size */
+    --base-font: 16px;
+    --font-size-18: 18px;
+    --font-size-24: 24px;
+    --font-size-32: 32px;
+    --font-size-48: 38px;
+  }
+  .sectionTitle {
+    text-align: center;
+  }
+  .heading_3 {
+    font-size: var(--font-size-24);
+  }
+  .heading_4 {
+    font-size: var(--font-size-18);
+  }
+  /* ==============Common CSS ==============*/
+  /* toggle bar */
+  .navbar-toggler {
+    background: var(--white-color);
+    margin-right: 20px;
+  }
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  /* toggle bar */
+  .navUl {
+    background: var(--grey-color);
+    padding: 25px 0 25px;
+  }
+
+  .navLi:hover {
+    width: 100%;
+    padding: 10px 0;
+    background: var(--Royal-blue);
+    text-align: center;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+  }
+  .navLi:hover .navLI a {
+    color: var(--white-color);
+  }
+  .navUl a {
+    color: var(--primary-font-color);
+  }
+  nav .customBtn--modify {
+    color: var(--primary-font-color);
+    background: var(--yellow-color);
+  }
+
+  /* ===== navbar ======== */
+  /* 
+ ############################
+  ###### Home Page Start #######
+  #############################
+*/
+  /* ===== Hero section ======== */
+  #heroSection {
+    padding: 100px 0;
+  }
+  .heroTitle {
+    font-size: 45px;
+  }
+  .btnContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  /* ===== Hero section ======== */
+  /* ===== work section ======== */
+  #about,
+  #features,
+  #projectSection,
+  #client,
+  #FAQ,
+  #blog,
+  #designSolve,
+  #weFollow,
+  #mission,
+  #benefits,
+  #team,
+  footer .uperSection {
+    padding: 60px 0;
+  }
+  .left {
+    text-align: center;
+  }
+  #about .customCard {
+    align-items: center;
+    text-align: center;
+  }
+  /* ===== work section ======== */
+  /* ===== project section ======== */
+
+  #projectSection .leftCard--modify {
+    padding: 10px;
+    text-align: center;
+  }
+  #projectSection .leftCard:hover .cardOverly {
+    width: 100%;
+    opacity: 1;
+  }
+  /* ===== project section ======== */
+  /* ===== FAQ section ======== */
+  #FAQ .accordiaonNumber {
+    font-size: var(--font-size-18);
+  }
+  .accordion-button {
+    padding: 0;
+  }
+  /* ===== FAQ section ======== */
+  /* ===== Inquary section ======== */
+  #inquary .overly,
+  #inquary .inquaryRight {
+    padding: 10px 0px 0;
+  }
+  #inquary .btnContainer {
+    margin-top: 15px;
+    padding: 10px;
+  }
+  /* ===== Inquary section ======== */
+  /* 
+  ############################
+  ###### Home Page End #######
+  #############################
+ */
+
+  /* 
+  ############################
+  ###### About Page Start #####
+  #############################
+*/
+  #designSolve .heroTitle {
+    font-size: 48px;
+  }
+  #mission .missionContainer {
+    row-gap: 35px;
+  }
+  #team .teamCard {
+    padding: 10px 64px;
+  }
+  /* 
+  ############################
+  ###### About Page Start #####
+  #############################
+*/
+  /* ===== Footer section ======== */
+  footer {
+    text-align: center;
+  }
+  footer .uperSection .header > p {
+    width: 100%;
+  }
+  footer .uperSection .footer {
+    padding: 18px 15px;
+  }
+  footer .uperSection .footerLeft {
+    row-gap: 30px;
+  }
+  /* ===== Footer section ======== */
+}

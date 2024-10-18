@@ -1,0 +1,60 @@
+@media (max-width: 1199.98px) {
+  :root {
+    --primary-color: #1c1e53;
+    --primary-font-color: #282938;
+    --white-color: #fff;
+    --Royal-blue: #2405f2;
+    --grey-color: #f4f6fc;
+    --yellow-color: #fcd980;
+    --accenet-color: #eef4fa;
+    /* font weight */
+    --font-700: 700;
+    --font-600: 600;
+    --font-500: 500;
+    --font-400: 400;
+    /* font size */
+    --base-font: 16px;
+    --font-size-18: 18px;
+    --font-size-24: 22px;
+    --font-size-32: 32px;
+    --font-size-48: 48px;
+  }
+  .sectionTitle {
+    text-align: center;
+  }
+  /* ==============Common CSS ==============*/
+  /* ==============Hero Section CSS ============*/
+  .heroTitle {
+    font-size: var(--font-size-48);
+    font-weight: var(--font-600);
+    line-height: 74px;
+  }
+  /* ==============Hero Section CSS ============*/
+  /* ===== work section ======== */
+  #about,
+  #features,
+  #projectSection,
+  #client,
+  #FAQ,
+  #blog,
+  footer .uperSection {
+    padding: 80px 0;
+  }
+  /* ===== work section ======== */
+  /* ========= Project Section ========== */
+  #projectSection .rightCard--modify {
+    padding: 0 10px 65px;
+    text-align: center;
+  }
+  /* ========= Project Section ========== */
+  /* ========= inquary Section ========== */
+  #inquary .overly {
+    padding: 20px 20px 0;
+    align-content: center;
+    justify-content: center;
+  }
+  #inquary .inquaryRight {
+    padding: 20px 20px 0;
+  }
+  /* ========= inquary Section ========== */
+}

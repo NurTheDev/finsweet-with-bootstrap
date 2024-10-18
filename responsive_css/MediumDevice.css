@@ -1,0 +1,128 @@
+@media (max-width: 991.98px) {
+  :root {
+    /* font size */
+    --base-font: 16px;
+    --font-size-18: 18px;
+    --font-size-24: 24px;
+    --font-size-32: 32px;
+    --font-size-48: 38px;
+  }
+  .sectionTitle {
+    text-align: center;
+  }
+  .heading_3 {
+    font-size: var(--font-size-24);
+  }
+  .heading_4 {
+    font-size: var(--font-size-24);
+  }
+  /* ==============Common CSS ==============*/
+  /* ==========Navbar======== */
+  /* toggle bar */
+  .navbar-toggler {
+    background: var(--white-color);
+    /* margin-right: 20px; */
+  }
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  /* toggle bar */
+  .navUl {
+    background: var(--grey-color);
+    padding: 25px 0 25px;
+  }
+  nav .customBtn--modify {
+    color: var(--primary-font-color);
+    background: var(--yellow-color);
+  }
+  .navLi:hover {
+    width: 100%;
+    padding: 10px 0;
+    background: var(--Royal-blue);
+    text-align: center;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+  }
+  .navLi:hover .navLI a {
+    color: var(--white-color);
+  }
+  .navUl a {
+    color: var(--primary-font-color);
+  }
+  .coustomNav {
+    padding: 0;
+  }
+  /* ===== navbar ======== */
+
+  /* 
+  ############################
+  ###### Home Page Start #######
+  #############################
+   */
+  /* ===== work section ======== */
+  #about,
+  #features,
+  #projectSection,
+  #client,
+  #FAQ,
+  #blog,
+  #designSolve,
+  #weAre .weAreContainer,
+  #mission,
+  #benefits,
+  #team,
+  footer .uperSection {
+    padding: 70px 0;
+  }
+  .left {
+    text-align: center;
+  }
+
+  /* ===== work section ======== */
+  /* ========= Project Section ========== */
+  #projectSection .rightCard--modify {
+    padding: 0 10px 65px;
+    text-align: center;
+  }
+  /* ========= Project Section ========== */
+  /* ========= Inquary Section ========== */
+  #inquary .overly {
+    align-items: center;
+    justify-content: center;
+  }
+  /* ========= Inquary Section ========== */
+  /* 
+  ############################
+  ###### Home Page End #######
+  #############################
+   */
+
+  /* 
+  ############################
+  ###### About Page Start #####
+  #############################
+   */
+
+  /* 
+  ############################
+  ###### About Page End ######
+  #############################
+   */
+  /* ===== Footer section ======== */
+  footer {
+    text-align: center;
+  }
+  footer .uperSection .header > p {
+    width: 100%;
+  }
+  footer .uperSection .footer {
+    padding: 18px 15px;
+  }
+  footer .uperSection .footerLeft {
+    row-gap: 30px;
+  }
+  /* ===== Footer section ======== */
+}
