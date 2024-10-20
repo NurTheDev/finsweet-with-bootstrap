@@ -1,17 +1,5 @@
 @media (max-width: 1199.98px) {
   :root {
-    --primary-color: #1c1e53;
-    --primary-font-color: #282938;
-    --white-color: #fff;
-    --Royal-blue: #2405f2;
-    --grey-color: #f4f6fc;
-    --yellow-color: #fcd980;
-    --accenet-color: #eef4fa;
-    /* font weight */
-    --font-700: 700;
-    --font-600: 600;
-    --font-500: 500;
-    --font-400: 400;
     /* font size */
     --base-font: 16px;
     --font-size-18: 18px;
@@ -23,6 +11,11 @@
     text-align: center;
   }
   /* ==============Common CSS ==============*/
+  /* 
+  ############################
+  ###### Home Page start #######
+  #############################
+   */
   /* ==============Hero Section CSS ============*/
   .heroTitle {
     font-size: var(--font-size-48);
@@ -58,3 +51,24 @@
   }
   /* ========= inquary Section ========== */
 }
+/* 
+  ############################
+  ###### Home Page End #######
+  #############################
+   */
+/* 
+  ############################
+  ###### About Page start #######
+  #############################
+   */
+#designSolve .heroTitle {
+  font-size: 45px;
+}
+#team .teamCard {
+  padding: 48px 25px;
+}
+/* 
+  ############################
+  ###### About Page End #######
+  #############################
+   */
