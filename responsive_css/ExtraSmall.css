@@ -102,15 +102,12 @@
     width: 100%;
     opacity: 1;
   }
-  /* ===== project section ======== */
-  /* ===== FAQ section ======== */
   #FAQ .accordiaonNumber {
     font-size: var(--font-size-18);
   }
   .accordion-button {
     padding: 0;
   }
-  /* ===== FAQ section ======== */
   /* ===== Inquary section ======== */
   #inquary .overly,
   #inquary .inquaryRight {
@@ -141,13 +138,6 @@
   /*                  About page End               */
   /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
-  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-  /*                  Blog page start              */
-  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-
-  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-  /*                  Blog page End              */
-  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
   /* ===== Footer section ======== */
   footer {
     text-align: center;

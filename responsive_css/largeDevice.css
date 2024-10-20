@@ -12,35 +12,32 @@
   }
   /* ==============Common CSS ==============*/
   /* 
-  ############################
-  ###### Home Page start #######
-  #############################
-   */
-  /* ==============Hero Section CSS ============*/
+ /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+  /*                  Home page Start              */
+  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
   .heroTitle {
     font-size: var(--font-size-48);
     font-weight: var(--font-600);
     line-height: 74px;
   }
-  /* ==============Hero Section CSS ============*/
-  /* ===== work section ======== */
+  /* ===== common padding ======== */
   #about,
   #features,
   #projectSection,
   #client,
   #FAQ,
   #blog,
+  #environment,
   footer .uperSection {
     padding: 80px 0;
   }
-  /* ===== work section ======== */
-  /* ========= Project Section ========== */
+  /* ===== common padding ======== */
+
   #projectSection .rightCard--modify {
     padding: 0 10px 65px;
     text-align: center;
   }
-  /* ========= Project Section ========== */
-  /* ========= inquary Section ========== */
   #inquary .overly {
     padding: 20px 20px 0;
     align-content: center;
@@ -49,26 +46,20 @@
   #inquary .inquaryRight {
     padding: 20px 20px 0;
   }
-  /* ========= inquary Section ========== */
 }
-/* 
-  ############################
-  ###### Home Page End #######
-  #############################
-   */
-/* 
-  ############################
-  ###### About Page start #######
-  #############################
-   */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/*                  Home page End               */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/*                  About page Start             */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 #designSolve .heroTitle {
   font-size: 45px;
 }
 #team .teamCard {
   padding: 48px 25px;
 }
-/* 
-  ############################
-  ###### About Page End #######
-  #############################
-   */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/*                  About page End               */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */

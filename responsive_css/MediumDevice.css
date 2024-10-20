@@ -57,49 +57,43 @@
   }
   /* ===== navbar ======== */
 
-  /* 
-  ############################
-  ###### Home Page Start #######
-  #############################
-   */
-  /* ===== work section ======== */
+  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+  /*                  Home page Start              */
+  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+  /* ===== common padding ======== */
   #about,
   #features,
   #projectSection,
   #client,
   #FAQ,
-  #blog,
   #designSolve,
   #weAre .weAreContainer,
   #mission,
   #benefits,
   #team,
+  #environment,
   footer .uperSection {
     padding: 70px 0;
   }
+  #blog {
+    padding: 20px 0;
+  }
+
+  /* ===== common padding ======== */
   .left {
     text-align: center;
   }
-
-  /* ===== work section ======== */
-  /* ========= Project Section ========== */
   #projectSection .rightCard--modify {
     padding: 0 10px 65px;
     text-align: center;
   }
-  /* ========= Project Section ========== */
-  /* ========= Inquary Section ========== */
   #inquary .overly {
     align-items: center;
     justify-content: center;
   }
-  /* ========= Inquary Section ========== */
-  /* 
-  ############################
-  ###### Home Page End #######
-  #############################
-   */
-
+  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+  /*                  Home page End               */
+  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
   /* ===== Footer section ======== */
   footer {

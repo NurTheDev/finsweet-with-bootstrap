@@ -55,17 +55,14 @@
     padding: 0;
   }
   /* ===== navbar ======== */
-  /* 
-  ############################
-  ###### Home Page Start #######
-  #############################
-   */
-  /* ===== Hero Section ======== */
+  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+  /*                  Home page Start              */
+  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
   #heroSection {
     padding: 80px 0;
   }
-  /* ===== Hero Section ======== */
-  /* ===== work section ======== */
+
+  /* ===== common padding ======== */
   #about,
   #features,
   #projectSection,
@@ -77,9 +74,11 @@
   #mission,
   #benefits,
   #team,
+  #environment,
   footer .uperSection {
     padding: 60px 0;
   }
+  /* ===== common padding ======== */
   .left {
     text-align: center;
   }
@@ -87,8 +86,6 @@
     align-items: center;
     text-align: center;
   }
-  /* ===== work section ======== */
-  /* ===== project section ======== */
 
   #projectSection .leftCard--modify {
     padding: 10px;
@@ -98,16 +95,12 @@
     width: 100%;
     opacity: 1;
   }
-  /* ===== project section ======== */
-  /* ===== FAQ section ======== */
   #FAQ .accordiaonNumber {
     font-size: var(--font-size-18);
   }
   .accordion-button {
     padding: 0;
   }
-  /* ======= FAQ Section ========== */
-  /* ===== Inquary section ======== */
   #inquary .overly,
   #inquary .inquaryRight {
     padding: 10px 10px 0;
@@ -116,18 +109,13 @@
     margin-top: 15px;
     padding: 10px;
   }
-  /* ===== Inquary section ======== */
-  /* 
-  ############################
-  ######## Home Page end ######
-  #############################
-   */
+  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+  /*                  Home page End               */
+  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
-  /* 
-  ############################
-  ###### About Page Start #####
-  #############################
-   */
+  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+  /*                  About page Start             */
+  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
   #weAre .weAreContainer {
     padding: 35px 0;
@@ -139,11 +127,9 @@
     background: var(--white-color);
     padding: 48px 35px;
   }
-  /* 
-  ############################
-  ###### About Page End ######
-  #############################
-   */
+  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+  /*                  About page End               */
+  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
   /* ===== Footer section ======== */
   footer {
     text-align: center;
