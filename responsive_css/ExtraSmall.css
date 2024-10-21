@@ -88,6 +88,10 @@
   #delivery,
   #portfolio,
   #design,
+  #aboutProject,
+  #together,
+  #privacy,
+  .blog_container,
   footer .uperSection {
     padding: 60px 0;
   }
@@ -164,7 +168,18 @@
     font-size: 16px;
   }
   /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-  /*                  Work page End              */
+  /*                  Work page End                */
+  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+  /*                  Study page start             */
+  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+  #design .template,
+  #aboutProject .template {
+    overflow: hidden;
+    padding: 17px 20px;
+  }
+  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+  /*                  Study page end               */
   /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
   /* ===== Footer section ======== */
   footer {
