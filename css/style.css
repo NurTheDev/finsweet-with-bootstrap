@@ -348,7 +348,7 @@ nav .customBtn:hover {
 /* ******** FAQ Section ************  */
 /* ******** inquary Section ************  */
 #inquary .overly {
-  padding: 96px 96px 0;
+  padding: 75px 60px 0;
   background: rgba(28, 30, 83, 0.5);
   color: var(--white-color);
   display: flex;
