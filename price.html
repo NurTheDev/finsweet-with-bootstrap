@@ -50,17 +50,18 @@
     <!-- Font Awesome link -->
     <!-- coutom css link -->
     <link rel="stylesheet" href="css/price.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
     <!-- coutom css link -->
   </head>
   <body>
     <!-- ***************Navbar section********************** -->
     <header class="position-fixed w-100 z-1">
       <nav class="navbar navbar-expand-lg coustomNav">
-        <div class="container">
+        <div class="container py-3">
           <a href="#"
             ><picture
               ><img
-                class="w-100 img-fluid"
+                class="w-100 img-fluid ms-sm-1"
                 src="images/Logo.png"
                 alt="images/Logo.png" /></picture
           ></a>
@@ -80,24 +81,24 @@
             id="navbarNav"
           >
             <ul
-              class="d-flex flex-column align-items-center flex-lg-row mb-0 gap-3 gap-lg-5"
+              class="d-flex flex-column align-items-center flex-lg-row mb-0 gap-3 gap-xl-5 gap-lg-4 ps-0 navUl"
             >
-              <li>
-                <a class="navLink" href="index.html">Home</a>
+              <li class="navLi">
+                <a class="navLink">Home</a>
               </li>
-              <li>
+              <li class="navLi">
                 <a class="navLink" href="about.html">About Us</a>
               </li>
-              <li>
+              <li class="navLi">
                 <a class="navLink" href="features.html">Features</a>
               </li>
-              <li>
+              <li class="navLi">
                 <a class="navLink" href="price.html">Pricing</a>
               </li>
-              <li>
+              <li class="navLi">
                 <a class="navLink" href="#FAQ">FAQ</a>
               </li>
-              <li>
+              <li class="navLi">
                 <a class="navLink" href="blog.html">Blog</a>
               </li>
               <button
@@ -118,15 +119,17 @@
         <div class="container">
           <div class="priceTitle text-center">
             <h2 class="sectionTitle mb-3">Our Pricing Plans</h2>
-            <p class="summery w-50 mx-auto">
+            <p class="summery w-lg-50 mx-auto">
               When you’re ready to go beyond prototyping in Figma, Webflow is
               ready to help you bring your designs to life — without coding
               them.
             </p>
           </div>
           <div class="row gx-5 mt-5">
-            <div class="col-lg-4">
-              <div class="priceCard d-flex flex-column align-items-center">
+            <div class="col-lg-4 col-md-6">
+              <div
+                class="priceCard d-flex flex-column align-items-center h-100"
+              >
                 <div class="cardHeader d-flex flex-column gap-1">
                   <div class="price d-flex align-items-center gap-2">
                     <h2 class="subSectionTitle mb-2">$299</h2>
@@ -155,8 +158,10 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-4">
-              <div class="priceCard d-flex flex-column align-items-center">
+            <div class="col-lg-4 col-md-6">
+              <div
+                class="priceCard d-flex flex-column align-items-center h-100"
+              >
                 <div class="cardHeader d-flex flex-column gap-1">
                   <div class="price d-flex align-items-center gap-2">
                     <h2 class="subSectionTitle mb-2">$399</h2>
@@ -186,8 +191,10 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-4">
-              <div class="priceCard d-flex flex-column align-items-center">
+            <div class="col-lg-4 col-md-12">
+              <div
+                class="priceCard d-flex flex-column align-items-center h-100"
+              >
                 <div class="cardHeader d-flex flex-column gap-1">
                   <div class="price d-flex align-items-center gap-2">
                     <h2 class="subSectionTitle mb-2">$499 +</h2>
@@ -226,7 +233,9 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-4">
-              <div class="leftFAQ d-flex flex-column row-gap-3">
+              <div
+                class="leftFAQ d-flex flex-column row-gap-3 text-center text-lg-start"
+              >
                 <h3 class="subSectionTitle">Frequently asked questions</h3>
                 <a href="#FAQ">Contact us for more info</a>
               </div>
@@ -394,7 +403,7 @@
       <div class="uperSection">
         <div class="container">
           <div class="row justify-content-between">
-            <div class="col-lg-5">
+            <div class="col-xl-5 col-lg-7">
               <div class="footerLeft d-flex flex-column">
                 <div class="header">
                   <picture
@@ -403,12 +412,14 @@
                       src="images/Logo.png"
                       alt="images/Logo.png"
                   /></picture>
-                  <p class="summeryWhite mt-4 w-75">
+                  <p class="summeryWhite mt-4">
                     We are always open to discuss your project and improve your
                     online presence.
                   </p>
                 </div>
-                <div class="footer d-flex align-items-center">
+                <div
+                  class="footer d-flex align-items-center justify-content-md-around justify-content-lg-between"
+                >
                   <div class="email">
                     <p>Email me at</p>
                     <a class="summery" href="privacy.html"
@@ -422,14 +433,18 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-xl-4 col-lg-4">
               <div class="footerRight d-flex flex-column gap-3">
-                <h2 class="sectionTitle footerTile_modify">Lets Talk!</h2>
+                <h2 class="sectionTitle footerTile_modify text-lg-start">
+                  Lets Talk!
+                </h2>
                 <p class="summeryWhite">
                   We are always open to discuss your project, improve your
                   online presence and help with your UX/UI design challenges.
                 </p>
-                <div class="social d-flex gap-1 align-items-center">
+                <div
+                  class="social d-flex gap-1 align-items-center justify-content-center justify-content-lg-start"
+                >
                   <span><i class="fa-brands fa-facebook-f"></i></span
                   ><span><i class="fa-brands fa-x-twitter"></i></span
                   ><span><i class="fa-brands fa-instagram"></i></span
@@ -443,12 +458,12 @@
       <div class="loweSection">
         <div class="container">
           <div class="row justify-content-between align-items-center">
-            <div class="col-lg-3">
-              <p class="mb-0">Copyright 2022, Finsweet.com</p>
+            <div class="col-xl-3 col-lg-5">
+              <p class="mb-5 mb-lg-0">Copyright 2022, Finsweet.com</p>
             </div>
-            <div class="col-lg-5">
+            <div class="col-xl-5 col-lg-7">
               <ul
-                class="d-flex align-items-center flex-lg-row gap-3 justify-content-between mb-0"
+                class="d-flex align-items-center flex-lg-row gap-1 gap-lg-3 justify-content-between mb-0 p-0"
               >
                 <li>
                   <a class="navLink" href="index.html">Home</a>

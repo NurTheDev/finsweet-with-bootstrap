@@ -82,6 +82,12 @@
   #benefits,
   #team,
   #environment,
+  #contact,
+  #revision,
+  #support,
+  #delivery,
+  #portfolio,
+  #design,
   footer .uperSection {
     padding: 60px 0;
   }
@@ -138,6 +144,28 @@
   /*                  About page End               */
   /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
+  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+  /*                  Contact page start             */
+  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+  #contact .contactForm {
+    padding: 30px 40px;
+  }
+  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+  /*                  Contact page End             */
+  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+  /*                  Work page start              */
+  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+  #design .designUl {
+    column-gap: 1rem;
+  }
+  #design .designUl a {
+    font-size: 16px;
+  }
+  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+  /*                  Work page End              */
+  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
   /* ===== Footer section ======== */
   footer {
     text-align: center;
